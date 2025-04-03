@@ -9,9 +9,9 @@ public class Review01 {
     }
 
     // 税額を計算
-    public static final double tax(double price) {
+    public static final int tax(double price) {
         double taxRate = 0.1;
-        double taxAmount = price * taxRate;
-        return taxAmount;
+        double taxAmount =  price * taxRate;
+        return (int)taxAmount;
     }
 }
